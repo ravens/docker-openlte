@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+
+  openlte:
+    build: ./
+    container_name: openlte
+    privileged: true
+    network_mode: "host"
+    volumes:
+      - /dev/bus/usb
+      - ./:/tmp
+
