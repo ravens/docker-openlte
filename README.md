@@ -19,7 +19,8 @@ You will have the classical prompt to configure and run OpenLTE eNB. As /tmp is 
 Logs accessible using
 ```
 docker-compose logs -f 
-``
+telnet 0 30001
+```
 
 ## config commands
 write use_cnfg_file 1
