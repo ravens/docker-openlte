@@ -23,6 +23,7 @@ telnet 0 30001
 ```
 
 ## config commands
+```
 write use_cnfg_file 1
 write use_user_file 1
 write band 5
@@ -35,6 +36,7 @@ write rx_gain 30
 write ip_addr_start 0A000001
 write dns_addr 08080808
 add_user imsi= imei= k=
+```
 
 
 ## caveats
