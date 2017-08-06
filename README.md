@@ -21,6 +21,21 @@ Logs accessible using
 docker-compose logs -f 
 ``
 
+## config commands
+write use_cnfg_file 1
+write use_user_file 1
+write band 5
+write mcc 901
+write mnc 55
+write bandwidth 5
+write dl_earfcn 2525
+write tx_gain 86
+write rx_gain 30     
+write ip_addr_start 0A000001
+write dns_addr 08080808
+add_user imsi= imei= k=
+
+
 ## caveats
 
 The Dockerfile needs some fixing so that the entrypoint is directly the LDD_fdd_enodeb executable. 
